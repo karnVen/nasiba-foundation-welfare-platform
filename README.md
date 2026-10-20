@@ -1,7 +1,14 @@
-# Nasiba Foundation — Full-Stack Welfare Platform & Staff ERP
+# ◈ Nasiba Foundation — Full-Stack Welfare Platform & Staff ERP
 
 > **Production Platform Case Study**  
 > A full-stack humanitarian relief web application, dynamic donation engine, and 4-tier administrative ERP engineered for **Nasiba Foundation** (registered charitable trust).
+
+[![Case Study](https://img.shields.io/badge/Full--Stack-Case_Study-1e293b?style=for-the-badge&logo=gitbook&logoColor=white)](#-system-architecture--request-lifecycle)
+[![Next.js](https://img.shields.io/badge/Next.js-App_Router-18181b?style=flat-square&logo=next.js&logoColor=white)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-27272a?style=flat-square&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Prisma ORM](https://img.shields.io/badge/Prisma_ORM-Database_First-334155?style=flat-square&logo=prisma&logoColor=white)](https://www.prisma.io/)
+[![JWT Security](https://img.shields.io/badge/Auth-Jose_JWT_+_Bcrypt-1e293b?style=flat-square)](https://github.com/karnVen)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3f3f46?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
 ---
 
@@ -13,7 +20,7 @@
 
 ---
 
-## Key Platform Capabilities
+## ◈ Key Platform Capabilities & Modules
 
 | Module | Purpose | Tech Implementation |
 | :--- | :--- | :--- |
@@ -25,7 +32,7 @@
 
 ---
 
-## Tech Stack & Tooling
+## ◈ Tech Stack & Tooling
 
 - **Core Framework:** Next.js (App Router, Server Components)
 - **Language:** TypeScript (Full-Stack Strict Mode)
@@ -35,7 +42,7 @@
 
 ---
 
-## System Architecture
+## ◈ System Architecture & Request Lifecycle
 
 ```mermaid
 flowchart TD
@@ -66,7 +73,7 @@ flowchart TD
 
 ---
 
-## Production Codebase Structure
+## ◈ Production Codebase Directory Layout
 
 ```text
 nasiba-foundation/
@@ -93,7 +100,7 @@ nasiba-foundation/
 
 ---
 
-## Key Engineering Challenges Conquered
+## ◈ Hard Engineering Battles & Problem Diagnosis
 
 ### 1. Unified Public & Administrative Prisma Schema
 * **Problem:** Running separate codebases for public fundraising and internal staff management would double maintenance costs for a non-profit organization.
@@ -109,5 +116,5 @@ nasiba-foundation/
 
 ---
 
-## Professional Notice & Confidentiality
+## ◈ Professional Notice & Confidentiality Boundary
 *This repository is maintained as a technical portfolio case study. Donor tax identities, personal contact records, and staff salary ledgers are strictly confidential under non-profit data protection policies.*
